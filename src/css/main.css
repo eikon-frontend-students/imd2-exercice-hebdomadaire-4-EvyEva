@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto";
 }
 
 a {
@@ -11,4 +12,143 @@ a {
 img,
 video {
   display: block;
+}
+
+.chart {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+p {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.tous {
+  width: 100px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.pourcentage {
+  color: white;
+  text-align: center;
+}
+
+.switzerland {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.Mobile1 {
+  display: flex;
+  width: 195px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.Desktop1 {
+  display: flex;
+  width: 105px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.USA {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.Mobile2 {
+  display: flex;
+  width: 153px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.Desktop2 {
+  display: flex;
+  width: 147px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #37d3d2;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.Europe {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.Mobile3 {
+  display: flex;
+  width: 123px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.Desktop3 {
+  display: flex;
+  width: 177px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.legende {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.legende-texte {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.legendeglobale {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rectangle1 {
+  width: 16px;
+  height: 16px;
+  background: #ffcc2f;
+}
+
+.rectangle2 {
+  width: 16px;
+  height: 16px;
+  background: #37d3d2;
 }
